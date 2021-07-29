@@ -1,12 +1,12 @@
-import {Profile} from '../src/pages';
+import { Profile, Projects } from "../src/pages";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+      <header className="App-header"></header>
       <body>
-    <Profile />
+        <Profile />
+        <Projects />
       </body>
     </div>
   );

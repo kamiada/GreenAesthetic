@@ -1,2 +1,22 @@
-@import '../../variables';
+@import "../../variables";
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 
+.profile_container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  top: 30%;
+  left: 45%;
+  right: 45%;
+  width: 200px;
+  height: 200px;
+  font-family: "Source Sans Pro", sans-serif;
+  .profile_circle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: $creamwhite;
+  }
+}

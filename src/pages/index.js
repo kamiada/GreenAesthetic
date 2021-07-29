@@ -1,2 +1,3 @@
 import Profile from './profile/index';
-export { Profile };
+import Projects from './projects/index';
+export { Profile, Projects };
