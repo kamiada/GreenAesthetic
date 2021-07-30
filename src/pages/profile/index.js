@@ -7,7 +7,9 @@ const Profile = () => {
     <Layout>
       <div className="profile_container">
         <div className="profile_circle"> </div>
-        <p> Hello! My name is Adrianna.</p>
+        <div className="text-holder">
+        <p> Hello! My name is Adrianna. I am software engineer currently working for BBC Archive Services</p>
+        </div>
       </div>
     </Layout>
   );

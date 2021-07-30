@@ -11,12 +11,16 @@
   left: 45%;
   right: 45%;
   width: 200px;
-  height: 200px;
+  height: 350px;
   font-family: "Source Sans Pro", sans-serif;
   .profile_circle {
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    background-color: $creamwhite;
+    background-color: $pastelyellow;
+  }
+  p {
+      color: $pastelyellow;
+      font-size: 16px;
   }
 }
