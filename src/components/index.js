@@ -1,2 +1,3 @@
 import Layout from './Layout.jsx';
-export { Layout };
+import Panel from './Panel.jsx';
+export { Layout, Panel };
