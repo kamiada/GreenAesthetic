@@ -13,12 +13,17 @@ const Projects = () => {
   return (
     <Layout>
       Projects
+      <div className="table">
+      <Panel />
+      <Panel />
+      <Panel />
+      <Panel />
+      </div>
       <Button
-        class="profile-button-scroll"
+        class="projects-button-scroll"
         onClick={() => scrollToBottom()}
         title="Scroll down to find out about my projects!"
       />
-      <Panel />
     </Layout>
   );
 };
