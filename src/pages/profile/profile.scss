@@ -22,5 +22,17 @@
   p {
       color: $pastelyellow;
       font-size: 16px;
+      font-weight: bold;
   }
+}
+.text-holder {
+  width: 400px;
+  text-align: center;
+}
+.button-container {
+
+}
+.profile-button-scroll {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: $pastelyellow;
 }

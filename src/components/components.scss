@@ -5,3 +5,13 @@
     height: 100vh;
     background-color: $limegreen;
 }
+
+.button-component {
+    button {
+        border: none;
+        outline: none;
+        text-decoration: none;
+        text-align: center;
+        text-transform: none;
+    }
+}

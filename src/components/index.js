@@ -1,3 +1,4 @@
 import Layout from './Layout.jsx';
 import Panel from './Panel.jsx';
-export { Layout, Panel };
+import Button from './Button.jsx';
+export { Layout, Panel, Button };
