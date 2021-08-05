@@ -2,6 +2,13 @@ import React from "react";
 import { Layout, Button } from "../../components";
 import "./profile.scss";
 
+const scrollToTop = () => {
+  window.scroll({
+    top: 1000,
+    behavior: "smooth",
+  });
+};
+
 const Profile = () => {
   return (
     <Layout>
@@ -10,11 +17,9 @@ const Profile = () => {
         <div className="text-holder">
         <p> Hello! My name is Adrianna. I am software engineer currently working for BBC News</p>
         </div>
-      </div>
-      <div>
         <Button
-        className="profile-button-scroll"
-        onClick={() => console.log('here')}  
+        class="profile-button-scroll"
+        onClick={() => scrollToTop()}  
         title="Scroll down to find out about my projects!"
         />
       </div>

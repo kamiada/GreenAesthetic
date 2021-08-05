@@ -1,13 +1,25 @@
 import React from "react";
-import { Layout, Panel } from '../../components';
-import './projects.scss';
+import { Layout, Panel, Button } from "../../components";
+import "./projects.scss";
+
+const scrollToBottom = () => {
+  window.scroll({
+    top: -1000,
+    behavior: "smooth",
+  });
+};
 
 const Projects = () => {
-    return (
-        <Layout>
-            Projects
-            <Panel />
-        </Layout>
-    )
-}
+  return (
+    <Layout>
+      Projects
+      <Button
+        class="profile-button-scroll"
+        onClick={() => scrollToBottom()}
+        title="Scroll down to find out about my projects!"
+      />
+      <Panel />
+    </Layout>
+  );
+};
 export default Projects;
