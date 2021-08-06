@@ -1,5 +1,6 @@
 import React from "react";
 import { Layout, Panel, Button } from "../../components";
+import { NHM } from "../../images";
 import "./projects.scss";
 
 const scrollToBottom = () => {
@@ -15,10 +16,22 @@ const Projects = () => {
       <div className="projects-container">
         Projects
         <div className="table">
-          <Panel />
-          <Panel />
-          <Panel />
-          <Panel />
+          <Panel
+            gif={NHM}
+            alt="Redesign for the website of Natural History Museum"
+          />
+          <Panel
+            gif={NHM}
+            alt="Redesign for the website of Natural History Museum"
+          />
+          <Panel
+            gif={NHM}
+            alt="Redesign for the website of Natural History Museum"
+          />
+          <Panel
+            gif={NHM}
+            alt="Redesign for the website of Natural History Museum"
+          />
         </div>
         <Button
           class="projects-button-scroll"

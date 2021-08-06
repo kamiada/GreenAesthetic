@@ -7,13 +7,14 @@ class Panel extends Component {
     return (
       <div className="panel-container">
         <button>
+        {this.props.gif && (
           <ReactImageFallback
-            src="my-image.png"
+            src={this.props.gif}
             fallbackImage="my-backup.png"
-            initialImage="loader.gif"
-            alt="cool image should be here"
+            alt={this.props.alt}
             className="image-panel"
           />
+          )}
         </button>
       </div>
     );
