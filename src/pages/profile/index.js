@@ -15,7 +15,7 @@ const Profile = () => {
     <Layout>
       <div className="profile_container" id="home">
         <div className="profile_circle">
-          <image src={profilePic}  alt="profile picture of the person who owns this portfolio"/>
+          <img src={profilePic} alt="woman who build and owns this website"/>
         </div>
         <div className="text-holder">
         <p> Hello! My name is Adrianna. I am software engineer currently working for BBC News</p>
