@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ReactImageFallback from "react-image-fallback";
 import "./components.scss";
 
 class Panel extends Component {
@@ -7,14 +6,7 @@ class Panel extends Component {
     return (
       <div className="panel-container">
         <button>
-        {this.props.gif && (
-          <ReactImageFallback
-            src={this.props.gif}
-            fallbackImage="my-backup.png"
-            alt={this.props.alt}
-            className="image-panel"
-          />
-          )}
+        <img className="image-panel" src={this.props.image} alt={this.props.alt}/>
         </button>
       </div>
     );

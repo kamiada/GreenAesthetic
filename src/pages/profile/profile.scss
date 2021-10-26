@@ -9,10 +9,11 @@
   margin: auto;
   padding-top: 15%;
   font-family: "Source Sans Pro", sans-serif;
+
   .profile_circle {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     background-color: $pastelyellow;
   }
   p {
@@ -20,9 +21,16 @@
       font-size: 20px;
       font-weight: bold;
   }
+
 }
 .text-holder {
   width: 400px;
   text-align: center;
   margin-bottom: 100px;
+}  
+image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: block;
 }

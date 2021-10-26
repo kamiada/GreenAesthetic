@@ -1,3 +1,3 @@
 import NHM from './NHM.png';
-import profilePic from './profile.jpg';
+import profilePic from './profile.png';
 export { NHM, profilePic };

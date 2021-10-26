@@ -1,28 +1,45 @@
-@import '../variables';
+@import "../variables";
+
+button {
+  border: none;
+  outline: none;
+  text-decoration: none;
+  text-align: center;
+  text-transform: none;
+  background-color: $limegreen;
+}
 
 .layout {
-    margin: 0;
-    height: 100vh;
-    background-color: $limegreen;
+  margin: 0;
+  height: 100vh;
+  background-color: $limegreen;
 }
 
 .button-component {
-    button {
-        border: none;
-        outline: none;
-        text-decoration: none;
-        text-align: center;
-        text-transform: none;
-        padding: 20px;
-        border-radius: 10px;
-        font-family: "Source Sans Pro", sans-serif;
-        background-color: $pastelyellow;
-        font-size: 16px;
-        font-weight: bold;
-        color: $trunkbrown;
-    }
+  button {
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: $pastelyellow;
+    font-size: 16px;
+    font-weight: bold;
+    color: $trunkbrown;
+  }
 }
 .image-panel {
-    width: 250px;
-    height: 250px;
+  width: 250px;
+  height: 250px;
+}
+
+.menu-container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+  button {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-right: 10px;
+    color: $pastelyellow;
+  }
 }

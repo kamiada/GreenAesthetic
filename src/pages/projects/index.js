@@ -17,19 +17,19 @@ const Projects = () => {
         Projects
         <div className="table">
           <Panel
-            gif={NHM}
+            image={NHM}
             alt="Redesign for the website of Natural History Museum"
           />
           <Panel
-            gif={NHM}
+            image={NHM}
             alt="Redesign for the website of Natural History Museum"
           />
           <Panel
-            gif={NHM}
+            image={NHM}
             alt="Redesign for the website of Natural History Museum"
           />
           <Panel
-            gif={NHM}
+            image={NHM}
             alt="Redesign for the website of Natural History Museum"
           />
         </div>
