@@ -26,10 +26,7 @@ button {
     color: $trunkbrown;
   }
 }
-.image-panel {
-  width: 250px;
-  height: 250px;
-}
+
 
 .menu-container {
   position: -webkit-sticky;
@@ -46,4 +43,26 @@ button {
     color: $pastelyellow;
     display: inline;
   }
+}
+
+.parent_hexagon {
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  height: 170px;
+  width: 170px;
+  margin: 10px;   
+  background-color: $pastelblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hexagon {
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  height: 150px;
+  width: 150px;
+}
+
+img {
+  width: 400px;
+  height: 300px;
 }

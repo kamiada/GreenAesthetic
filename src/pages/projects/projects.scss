@@ -1,3 +1,7 @@
+@import "../../variables";
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+
 .table {
     display: flex;
     align-items: center;
@@ -8,13 +12,34 @@
     padding-top: 12%;
     width: auto;
     height: auto;
+    width: 40%;
+    margin-left: 0;
+    margin-right: 100px;
 }
 .projects-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 }
 .panel-container {
     padding: 10px;
 }
+.text_container {
+    border-radius: 20%;
+    width: 400px;
+    height: 600px;
+    background-color: $pastelyellow;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: $trunkbrown;
+    display: flex;
+    p {
+      border-radius: 20%;
+      width: 280px;
+      height: 590px;
+      padding: 40px;
+      margin-left: 20px;
+    }
+  }
+  

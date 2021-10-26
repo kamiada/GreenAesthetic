@@ -14,7 +14,6 @@ const Projects = () => {
   return (
     <Layout>
       <div className="projects-container" id="projects">
-        Projects
         <div className="table">
           <Panel
             image={NHM}
@@ -32,13 +31,29 @@ const Projects = () => {
             image={NHM}
             alt="Redesign for the website of Natural History Museum"
           />
+          <Panel
+            image={NHM}
+            alt="Redesign for the website of Natural History Museum"
+          />
+          <Panel
+            image={NHM}
+            alt="Redesign for the website of Natural History Museum"
+          />
+          <Panel
+            image={NHM}
+            alt="Redesign for the website of Natural History Museum"
+          />
         </div>
-        <Button
-          class="projects-button-scroll"
-          onClick={() => scrollToTop()}
-          title="Scroll up"
-        />
+        
+        <div className="text_container">
+          <p>Nananana batman</p>
+        </div>
       </div>
+      {/* <Button
+        class="projects-button-scroll"
+        onClick={() => scrollToTop()}
+        title="Scroll up"
+      /> */}
     </Layout>
   );
 };

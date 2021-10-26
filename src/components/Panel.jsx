@@ -4,11 +4,10 @@ import "./components.scss";
 class Panel extends Component {
   render() {
     return (
-      <div className="panel-container">
-        <button>
-        <img className="image-panel" src={this.props.image} alt={this.props.alt}/>
-        </button>
-      </div>
+
+      <button className="parent_hexagon" onClick={this.props.onClick}>
+        <img className="hexagon" src={this.props.image} alt={this.props.alt}/>
+      </button>
     );
   }
 }
