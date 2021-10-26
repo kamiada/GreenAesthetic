@@ -1,5 +1,5 @@
 import React from "react";
-import { Layout, Button } from "../../components";
+import { Layout } from "../../components";
 
 const contact = () => {
     return (

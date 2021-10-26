@@ -1,13 +1,18 @@
 import React from "react";
-import { Layout, Button } from "../../components";
+import { Layout } from "../../components";
+import "./works.scss";
 
 const work = () => {
-    return (
-        <Layout>
-        <div id="work">
-            Work
+  return (
+    <Layout>
+      <div className="page_container" id="work">
+        <div className="holder">
+          <div className="tv">
+
+          </div>
         </div>
-        </Layout>
-    )
-}
+      </div>
+    </Layout>
+  );
+};
 export default work;
