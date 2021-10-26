@@ -3,7 +3,7 @@ import { Layout, Panel, Button } from "../../components";
 import { NHM } from "../../images";
 import "./projects.scss";
 
-const scrollToBottom = () => {
+const scrollToTop = () => {
   window.scroll({
     top: -1000,
     behavior: "smooth",
@@ -35,7 +35,7 @@ const Projects = () => {
         </div>
         <Button
           class="projects-button-scroll"
-          onClick={() => scrollToBottom()}
+          onClick={() => scrollToTop()}
           title="Scroll up"
         />
       </div>

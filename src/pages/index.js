@@ -1,3 +1,6 @@
 import Profile from './profile/index';
 import Projects from './projects/index';
-export { Profile, Projects };
+import Work from './work/index';
+import Contact from './contact/index';
+import AboutMe from './about_me/index';
+export { Profile, Projects, AboutMe, Contact, Work };

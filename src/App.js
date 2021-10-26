@@ -1,4 +1,4 @@
-import { Profile, Projects } from "../src/pages";
+import { Profile, Projects, AboutMe, Work, Contact } from "../src/pages";
 import { Menu } from "../src/components";
 import './app.scss';
 
@@ -9,7 +9,10 @@ function App() {
       <body>
         <Menu />
         <Profile />
+        <AboutMe />
+        <Work />
         <Projects />
+        <Contact />
       </body>
     </div>
   );
