@@ -1,13 +1,12 @@
 import React from "react";
-import { Layout, Panel, Button } from "../../components";
+import { Layout, Panel } from "../../components";
 import { NHM } from "../../images";
 import "./projects.scss";
+import projects from "./projects.json";
 
-const scrollToTop = () => {
-  window.scroll({
-    top: -1000,
-    behavior: "smooth",
-  });
+const displayText = (text) => {
+  const n = document.getElementById("displayText");
+  return (n.textContent = text);
 };
 
 const Projects = () => {
@@ -16,44 +15,46 @@ const Projects = () => {
       <div className="projects-container" id="projects">
         <div className="table">
           <Panel
+            onClick={() => displayText(projects.projectsDescriptions[0].post)}
             image={NHM}
             alt="Redesign for the website of Natural History Museum"
           />
           <Panel
+            onClick={() => displayText(projects.projectsDescriptions[1].post)}
             image={NHM}
             alt="Redesign for the website of Natural History Museum"
           />
           <Panel
+            onClick={() => displayText(projects.projectsDescriptions[2].post)}
             image={NHM}
             alt="Redesign for the website of Natural History Museum"
           />
           <Panel
+            onClick={() => displayText(projects.projectsDescriptions[3].post)}
             image={NHM}
             alt="Redesign for the website of Natural History Museum"
           />
           <Panel
+            onClick={() => displayText(projects.projectsDescriptions[4].post)}
             image={NHM}
             alt="Redesign for the website of Natural History Museum"
           />
           <Panel
+            onClick={() => displayText(projects.projectsDescriptions[5].post)}
             image={NHM}
             alt="Redesign for the website of Natural History Museum"
           />
           <Panel
+            onClick={() => displayText(projects.projectsDescriptions[6].post)}
             image={NHM}
             alt="Redesign for the website of Natural History Museum"
           />
         </div>
-        
+
         <div className="text_container">
-          <p>Nananana batman</p>
+          <p id="displayText"></p>
         </div>
       </div>
-      {/* <Button
-        class="projects-button-scroll"
-        onClick={() => scrollToTop()}
-        title="Scroll up"
-      /> */}
     </Layout>
   );
 };
