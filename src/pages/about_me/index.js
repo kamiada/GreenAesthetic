@@ -4,7 +4,7 @@ import { Layout, Button } from "../../components";
 const aboutMe = () => {
     return (
         <Layout>
-        <div>
+        <div id="about">
             About Me
         </div>
         </Layout>

@@ -4,7 +4,7 @@ import { Layout, Button } from "../../components";
 const work = () => {
     return (
         <Layout>
-        <div>
+        <div id="work">
             Work
         </div>
         </Layout>

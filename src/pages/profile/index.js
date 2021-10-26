@@ -13,7 +13,7 @@ const scrollToTop = () => {
 const Profile = () => {
   return (
     <Layout>
-      <div className="profile_container">
+      <div className="profile_container" id="home">
         <div className="profile_circle">
           <image src={profilePic}  alt="profile picture of the person who owns this portfolio"/>
         </div>

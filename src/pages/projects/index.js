@@ -13,7 +13,7 @@ const scrollToTop = () => {
 const Projects = () => {
   return (
     <Layout>
-      <div className="projects-container">
+      <div className="projects-container" id="projects">
         Projects
         <div className="table">
           <Panel

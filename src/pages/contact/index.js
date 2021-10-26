@@ -4,7 +4,7 @@ import { Layout, Button } from "../../components";
 const contact = () => {
     return (
         <Layout>
-        <div>
+        <div id="contact">
             Contact
         </div>
         </Layout>
