@@ -36,7 +36,7 @@ const Projects = () => {
         <Button
           class="projects-button-scroll"
           onClick={() => scrollToBottom()}
-          title="Scroll down to find out about my projects!"
+          title="Scroll up"
         />
       </div>
     </Layout>

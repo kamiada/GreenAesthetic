@@ -6,12 +6,15 @@
     margin: auto auto 180px auto;
     flex-wrap: wrap;
     padding-top: 12%;
-    width: 350px;
-    height: 350px;
+    width: auto;
+    height: auto;
 }
 .projects-container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.panel-container {
+    padding: 10px;
 }
