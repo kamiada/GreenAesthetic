@@ -1,5 +1,6 @@
 import React from "react";
 import { Layout, Button } from "../../components";
+import { profilePic } from "../../images";
 import "./profile.scss";
 
 const scrollToTop = () => {
@@ -13,7 +14,9 @@ const Profile = () => {
   return (
     <Layout>
       <div className="profile_container">
-        <div className="profile_circle"> </div>
+        <div className="profile_circle">
+          <image src={profilePic}  alt="profile picture of the person who owns this portfolio"/>
+        </div>
         <div className="text-holder">
         <p> Hello! My name is Adrianna. I am software engineer currently working for BBC News</p>
         </div>
