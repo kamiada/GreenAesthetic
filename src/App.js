@@ -1,17 +1,15 @@
 import { Profile, Projects, AboutMe, Work, Contact } from "../src/pages";
 import { Menu } from "../src/components";
 import "./app.scss";
+import { Fragment } from "react";
 
-const color = {
-  background: '#12c2e9',  /* fallback for old browsers */
-background: '-webkit-linear-gradient(to bottom, #f64f59, #c471ed, #12c2e9)',  /* Chrome 10-25, Safari 5.1-6 */
-background: 'linear-gradient(to bottom, #f64f59, #c471ed, #12c2e9)' /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-}
 function App() {
   return (
+    <Fragment>
+          <Menu />
+
     <body>
-      <Menu />
       <div className="top-wave">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
@@ -24,6 +22,9 @@ function App() {
       <div className="App">
         <Profile />
         <AboutMe />
+        <Work />
+        <Projects />
+        <Contact />
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -33,6 +34,8 @@ function App() {
         ></path>
       </svg>
     </body>
+    </Fragment>
+
   );
 }
 

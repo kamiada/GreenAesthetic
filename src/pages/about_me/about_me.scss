@@ -3,19 +3,15 @@
 
 
 .background_layout {
-  z-index: 0;
   height: 100vh;
   position: absolute;
   padding-top: 30%;
 }
 .layout_aboutme {
-  z-index: 3;
   margin: 0;
   height: 100vh;
   display: block;
   position: relative;
-  // background-color: #13C1E9;
-
   background: #56CCF2;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #13C1E9, #2F80ED );  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #13C1E9, #2F80ED ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
