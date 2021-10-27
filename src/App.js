@@ -9,10 +9,10 @@ function App() {
       <body>
         <Menu />
         <Profile />
-        {/* <AboutMe />
+        <AboutMe />
         <Work />
         <Projects />
-        <Contact /> */}
+        <Contact />
       </body>
     </div>
   );
