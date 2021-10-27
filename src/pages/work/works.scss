@@ -12,10 +12,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     bottom: 0;
     left: 0;
     right: 0;
     margin-top: 10%;
+    width: auto;
 }
 
 .tv {
@@ -24,4 +26,18 @@
     width: 600px;
     height: 500px;
     background-color: aliceblue;
+}
+.tile {
+    display: flex;
+    border: 2px solid black;
+    margin: 5px;
+}
+.tile_text {
+    background-color: antiquewhite;
+    width: 400px;
+    height: 200px;
+}
+.tile_img {
+    width: 200px;
+    height: 200px;
 }
