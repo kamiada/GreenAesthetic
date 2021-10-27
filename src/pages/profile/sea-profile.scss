@@ -1,26 +1,29 @@
 @import "../../variables";
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 
-
-.background_layout {
-  height: 100vh;
-  position: absolute;
-  padding-top: 30%;
-}
-
-.layout {
-  margin: 0;
-  height: 100vh;
-  display: block;
-  position: relative;
-}
 .profile_container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   margin: auto;
+  margin-top: 0;
   font-family: "Source Sans Pro", sans-serif;
+  // background-color: #E499B8;
+  background-color: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
   .profile_circle {
     border-radius: 50%;
@@ -61,4 +64,8 @@ image {
   font-size: 16px;
   font-weight: bold;
   color: black;
+}
+.top_wave {
+  margin-bottom: -11px;
+  padding-bottom: 0;
 }

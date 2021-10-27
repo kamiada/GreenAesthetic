@@ -5,10 +5,9 @@ import { Layout } from "../../components";
 const work = () => {
   return (
     <Layout>
-        <div className="page_container" id="work">
+        <div className="work_container" id="work">
         <div className="holder">
           <div className="tv">
-
           </div>
         </div>
       </div>
