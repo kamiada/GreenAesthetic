@@ -6,9 +6,9 @@ const contact = () => {
     return (
         <Layout>
         <div id="contact">
-            <div className="container">
-                    
-            </div>
+            <footer className="container">
+                    hjj
+            </footer>
         </div>
         </Layout>
     )
