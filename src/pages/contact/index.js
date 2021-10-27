@@ -1,16 +1,18 @@
-import React from "react";
-import { Layout } from "../../components";
-import './contact.scss';
+import React, { Fragment } from "react";
+import "./contact.scss";
 
 const contact = () => {
-    return (
-        <Layout>
-        <div id="contact">
-            <footer className="container">
-                    hjj
-            </footer>
-        </div>
-        </Layout>
-    )
-}
+  return (
+    <Fragment>
+      <div className="background_layout"></div>
+      <div className="contact_layout">
+        <main>
+          <div id="contact">
+            <footer className="container">hjj</footer>
+          </div>
+        </main>
+      </div>
+    </Fragment>
+  );
+};
 export default contact;

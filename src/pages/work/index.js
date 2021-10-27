@@ -1,18 +1,24 @@
-import React from "react";
-import { Layout } from "../../components";
+import React, { Fragment } from "react";
 import "./works.scss";
 
 const work = () => {
   return (
-    <Layout>
-      <div className="page_container" id="work">
+    <Fragment>
+      <div className="background_layout">
+      </div>
+      
+      <div className="work_layout">
+        <main>
+        <div className="page_container" id="work">
         <div className="holder">
           <div className="tv">
 
           </div>
         </div>
       </div>
-    </Layout>
+        </main>
+      </div>
+    </Fragment>
   );
 };
 export default work;
