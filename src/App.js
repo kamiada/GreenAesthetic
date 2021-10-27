@@ -7,9 +7,9 @@ import { Fragment } from "react";
 function App() {
   return (
     <Fragment>
-          <Menu />
-
     <body>
+    <Menu />
+
       <div className="top-wave">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path

@@ -1,14 +1,10 @@
-import React, { Fragment } from "react";
+import React from "react";
 import "./works.scss";
+import { Layout } from "../../components";
 
 const work = () => {
   return (
-    <Fragment>
-      <div className="background_layout">
-      </div>
-      
-      <div className="work_layout">
-        <main>
+    <Layout>
         <div className="page_container" id="work">
         <div className="holder">
           <div className="tv">
@@ -16,9 +12,7 @@ const work = () => {
           </div>
         </div>
       </div>
-        </main>
-      </div>
-    </Fragment>
+    </Layout>
   );
 };
 export default work;
