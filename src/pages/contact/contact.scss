@@ -1,0 +1,14 @@
+@import "../../variables";
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+.container {
+  height: 50%;
+  width: 100%;
+  display: block;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: $pastelblue;
+  text-align: center;
+}
