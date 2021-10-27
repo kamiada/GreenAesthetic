@@ -2,13 +2,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 
 
-.blobby_background {
-  z-index: -1;
-  display: flex;
+.background_layout {
+  z-index: 0;
+  height: 100vh;
   position: absolute;
+  padding-top: 30%;
+}
+
+.layout {
+  z-index: 3;
+  margin: 0;
+  height: 100vh;
+  display: block;
+  position: relative;
 }
 .profile_container {
-  z-index: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,7 +29,7 @@
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    background-color: $pastelyellow;
+    background-color: $seagulwhite;
     img {
       border-radius: 50%;
       width: 200px;
@@ -30,7 +38,7 @@
     }
   }
   p {
-      color: $pastelyellow;
+      color: black;
       font-size: 20px;
       font-weight: bold;
   }
@@ -52,8 +60,8 @@ image {
   padding: 20px;
   border-radius: 10px;
   font-family: "Source Sans Pro", sans-serif;
-  background-color: $pastelyellow;
+  background-color: $sailorblue;
   font-size: 16px;
   font-weight: bold;
-  color: $trunkbrown;
+  color: black;
 }
