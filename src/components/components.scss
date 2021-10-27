@@ -1,4 +1,5 @@
 @import "../variables";
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 
 button {
   border: none;
@@ -50,10 +51,11 @@ img {
 }
 
 .parent_square {
-  height: 170px;
-  width: 170px;
-   
+  height: 210px;
+  width: 260px;
+  margin: 10px;
   display: flex;
+  background-color: black;
   justify-content: center;
   align-items: center;
   cursor:pointer;
@@ -61,4 +63,8 @@ img {
 .square {
   height: 200px;
   width: 250px;
+}
+
+.tile_container {
+  display: flex;
 }

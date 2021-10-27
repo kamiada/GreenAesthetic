@@ -5,7 +5,7 @@ import { Layout } from "../../components";
 const contact = () => {
   return (
     <Layout>
-      <div id="contact">
+      <div id="contact" className="contact_container">
         <footer className="container">hjj</footer>
       </div>
     </Layout>

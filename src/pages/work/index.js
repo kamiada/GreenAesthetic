@@ -1,14 +1,16 @@
 import React from "react";
 import "./works.scss";
-import { Layout } from "../../components";
+import { Layout, Tile } from "../../components";
 
 const work = () => {
   return (
     <Layout>
         <div className="work_container" id="work">
         <div className="holder">
-          <div className="tv">
-          </div>
+        <Tile 
+          image="nanan"
+          text="batman"
+        />
         </div>
       </div>
     </Layout>
