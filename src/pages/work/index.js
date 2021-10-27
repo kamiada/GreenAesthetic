@@ -10,11 +10,11 @@ const work = () => {
 
           <div className="tile">
             <img className="tile_img" src="" alt=""/>
-            <div className="tile_text">Example text</div>
+            <div className="tile_text">BBC News</div>
           </div>
 
           <div className="tile">
-          <div className="tile_text">nanana</div>
+          <div className="tile_text">BBC Scotland</div>
             <img className="tile_img" src="" alt=""/>
           </div>
 

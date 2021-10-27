@@ -1,15 +1,16 @@
 @import "../../variables";
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 
+
+
 .profile_container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: auto;
-  margin-top: 0;
   font-family: "Source Sans Pro", sans-serif;
-  // background-color: #E499B8;
+  padding-bottom: 500px;
+  margin-top: 7%;
   background-color: #12c2e9; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to bottom,
@@ -23,39 +24,36 @@
     #c471ed,
     #12c2e9
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-  .profile_circle {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    background-color: $seagulwhite;
-    img {
-      border-radius: 50%;
-      width: 200px;
-      height: 200px;
-      object-fit: cover;
-    }
-  }
   p {
       color: black;
       font-size: 20px;
       font-weight: bold;
   }
-
 }
+
+.profile_circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    z-index: 9;
+    position: absolute;
+    margin-top: 5%;
+  }
+  margin-left: 43%;
+  margin-top: 10%;
+  margin-bottom: 0;
+}
+
 .text-holder {
   width: 400px;
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }  
-image {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  display: block;
-}
-
 .profile-button-scroll {
   padding: 20px;
   border-radius: 10px;
@@ -68,4 +66,6 @@ image {
 .top_wave {
   margin-bottom: -11px;
   padding-bottom: 0;
+  z-index: 1;
+  position: absolute;
 }
