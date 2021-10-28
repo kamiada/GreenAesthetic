@@ -21,6 +21,9 @@ function App() {
           ></path>
         </svg>
       </div>
+      <footer>
+      <span>&#169;</span> Adrianna Kaminska
+      </footer>
     </Fragment>
   );
 }

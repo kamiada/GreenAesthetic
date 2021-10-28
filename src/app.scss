@@ -1,22 +1,4 @@
 @import "./variables";
-.App {
-  // z-index: 3;
-  // // background-color: #E499B8;
-  // background-color: #12c2e9; /* fallback for old browsers */
-  // background: -webkit-linear-gradient(
-  //   to bottom,
-  //   #f64f59,
-  //   #c471ed,
-  //   #12c2e9
-  // ); /* Chrome 10-25, Safari 5.1-6 */
-  // background: linear-gradient(
-  //   to bottom,
-  //   #f64f59,
-  //   #c471ed,
-  //   #12c2e9
-  // ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
 
 body {
   z-index: 0;
@@ -24,7 +6,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
   height: 100vh;
 }
-
+footer {
+  color: white;
+  font-weight: bold;
+}
