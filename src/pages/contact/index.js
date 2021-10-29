@@ -7,7 +7,7 @@ const contact = () => {
   return (
     <Layout>
       <div id="contact" className="contact_container">
-        <span>Contact me via</span>
+        <span>Find me on</span>
         <span className="border" />
         <div className="link_container">
           <a className="socialIcon" href="https://github.com/kamiada">
