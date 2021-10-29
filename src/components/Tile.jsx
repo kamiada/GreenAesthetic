@@ -11,9 +11,9 @@ class Tile extends Component {
           <span>{this.props.grade}</span>
           <span>{this.props.final_project}</span>
           {this.props.points &&
-            this.props.points.map((point) => (
+            this.props.points.map((point, key) => (
               <ul>
-                <li>{point}</li>
+                <li key={key}>{point}</li>
               </ul>
             ))}
           {this.props.skills &&
