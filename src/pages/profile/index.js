@@ -32,7 +32,7 @@ const Profile = () => {
             </div>
             <div class="profile-button-scroll">
               <Link to="about" spy={true} smooth={true} title="Scroll down!">
-                Scroll down to find out about my projects!
+                Scroll down to find out about me!
               </Link>
             </div>
           </div>

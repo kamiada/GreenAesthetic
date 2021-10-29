@@ -33,7 +33,6 @@
 
 .profile_circle {
   border-radius: 50%;
-  width: 200px;
   height: 200px;
   img {
     border-radius: 50%;
@@ -44,9 +43,14 @@
     position: absolute;
     margin-top: 5%;
   }
-  margin-left: 43%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  margin-left: 20%;
   margin-top: 10%;
   margin-bottom: 0;
+  margin-right: 20%;
 }
 
 .text-holder {
@@ -64,8 +68,8 @@
   color: black;
 }
 .top_wave {
-  margin-bottom: -11px;
-  padding-bottom: 0;
-  z-index: 1;
+  margin-top: 0%;
+  padding-bottom: 20px;
+  z-index: -1;
   position: absolute;
 }
