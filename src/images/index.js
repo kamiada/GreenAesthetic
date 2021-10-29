@@ -5,4 +5,8 @@ import Github from './GitHub-Mark-Light-64px.png';
 import Linkedin from './whiteLinkedin.png';
 import BBCNews from './BBCNewsLogo.png';
 import BBC from './bbc.png';
-export { NHM, profilePic, photo, Github, Linkedin, BBCNews, BBC };
+import Napier from './EdinburghNapierUni.jpeg';
+import CAS from './CAS.png';
+import WCS from './WestCollegeScotland.png';
+import UoE from './UniversityEdinburgh.png'
+export { NHM, profilePic, photo, Github, Linkedin, BBCNews, BBC, Napier, CAS, WCS, UoE };

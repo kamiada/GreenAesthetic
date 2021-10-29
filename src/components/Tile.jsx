@@ -4,20 +4,29 @@ import "./components.scss";
 class Tile extends Component {
   render() {
     return (
-      <div className="">
-        <img className="" src={this.props.image} alt={this.props.alt} />
-        {/* {this.props.list &&
-          this.props.list.map((element) => (
-            <ul>
-              <li>{element.job}</li>
-              <li>{element.point_1}</li>
-              {element.point_2 ? 
-              (
-                <li>{element.point_2}</li>
-              ) : null}
-            </ul>
-          ))} */}
-          
+      <div className="tile_container">
+        <div className="main_tile">
+          <span className="company">{this.props.company}</span>
+          <span className="job_title">{this.props.job_title}</span>
+          <span>{this.props.grade}</span>
+          <span>{this.props.final_project}</span>
+          {this.props.points &&
+            this.props.points.map((point) => (
+              <ul>
+                <li>{point}</li>
+              </ul>
+            ))}
+          {this.props.skills &&
+            this.props.skills.map((skill) => <span>Used technologies: {skill}</span>)}
+        </div>
+
+        <div className="tile_image_container">
+          <img
+            className="tile_image"
+            src={this.props.image}
+            alt={this.props.alt}
+          />
+        </div>
       </div>
     );
   }
