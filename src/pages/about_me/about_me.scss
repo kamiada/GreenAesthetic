@@ -28,14 +28,13 @@
   
 }
 
+.padding_between_pages {
+  margin-top: 10%;
+}
 .exact_container {
   display: flex;
   justify-content: center;
   align-items: center;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin-top: 10%;
 }
 
 .text_container {
@@ -68,4 +67,11 @@
     width: 400px;
     height: 600px;
   }
+}
+.section_title--aboutMe {
+  font-size: 40px;
+  margin: 20px 0 20px 0;
+  border-bottom: 2px solid white;
+  align-self: center;
+  text-align: center;
 }
