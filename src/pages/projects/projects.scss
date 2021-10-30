@@ -16,11 +16,17 @@
 }
 .projects-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  // align-items: center;
+  // justify-content: center;
   background-color: #2F80ED;
 
 }
 .panel-container {
   padding: 10px;
+}
+.section_title_projects {
+  font-size: 40px;
+  margin: 20px 0 20px 0;
+  border-bottom: 2px solid white;
+  color: white;
 }

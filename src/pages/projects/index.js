@@ -8,6 +8,7 @@ const Projects = () => {
   return (
     <Layout>
       <div className="projects-container" id="projects">
+      <div className="section_title_projects">Projects on which I was working on</div>
         <div className="table">
           <Panel
             image={NHM}

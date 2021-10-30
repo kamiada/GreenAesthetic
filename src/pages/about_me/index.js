@@ -15,7 +15,7 @@ const aboutMe = () => {
           </div>
           <div className="text_container">
             <p>
-              I work as a full-stack software engineer for BBC Archive Services.
+              I work as a full-stack software engineer for BBC News, in Elections Team.
               I am both interested in frontend and backend technologies. I
               really like building web-apps with React, games in Unity Engine
               and learning new programming languages and concepts. I am a bit of
@@ -27,13 +27,12 @@ const aboutMe = () => {
               <br />
               <br />
               Outside that, I like learning about history of the world, write
-              and read books, doing yoga (when I don't feel lazy), travel and
-              cook. During lockdown I started an online book club in Edinburgh,
+              and read books, doing yoga (when I don't feel lazy), travelling and
+              cooking. During lockdown I started an online book club in Edinburgh,
               and I joined few other book clubs as well.
               <br />
               <br />
-              To find out more about me please check out my resume, or scroll
-              down 😊
+              To find out more about me scroll down 😊
               <br />
             </p>
           </div>
