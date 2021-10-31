@@ -7,8 +7,10 @@ import projects from "./projects.json";
 const Projects = () => {
   return (
     <Layout>
+      <div className="section_title_projects">
+        Projects on which I was working on
+      </div>
       <div className="projects-container" id="projects">
-      <div className="section_title_projects">Projects on which I was working on</div>
         <div className="table">
           <Panel
             image={NHM}

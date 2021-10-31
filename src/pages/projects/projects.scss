@@ -8,17 +8,19 @@
   flex-direction: row;
   margin: auto auto 180px auto;
   flex-wrap: wrap;
-  padding-top: 12%;
   width: auto;
   height: auto;
   margin-left: 0;
   margin-right: 0;
+  padding-top: 20px;
 }
 .projects-container {
   display: flex;
   // align-items: center;
   // justify-content: center;
   background-color: #2F80ED;
+  text-align: center;
+
 
 }
 .panel-container {
@@ -26,7 +28,10 @@
 }
 .section_title_projects {
   font-size: 40px;
-  margin: 20px 0 20px 0;
   border-bottom: 2px solid white;
   color: white;
+  display: flex;
+  background-color: #2F80ED;
+  padding-top: 12%;
+  text-align: center;
 }
