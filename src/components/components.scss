@@ -61,6 +61,10 @@ img {
   align-items: center;
   cursor:pointer;
 }
+.parent_square:hover {
+  background-color: white;
+  opacity: 0.5;
+}
 .square {
   height: 200px;
   width: 305px;
