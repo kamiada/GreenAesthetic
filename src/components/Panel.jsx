@@ -8,10 +8,10 @@ class Panel extends Component {
         <img className="square" src={this.props.image} alt={this.props.alt} />
         <div className="overlay">
           <div class="sliding_text">
-            <div>{this.props.projectTitle}</div>
+            <div className="details_holder">{this.props.projectTitle}</div>
             {this.props.tags &&
               this.props.tags.map((tag) => {
-                return <div>{tag}</div>;
+                return <div className="tag">{tag}</div>;
               })}
           </div>
         </div>

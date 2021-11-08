@@ -66,6 +66,7 @@ img {
 }
 .sliding_text {
   color:red;
+  opacity: 1;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -74,7 +75,6 @@ img {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  opacity: 1;
 }
 .overlay {
   position: absolute;
@@ -82,7 +82,6 @@ img {
   left: 0;
   right: 0;
   background-color: white;
-  opacity: 0.5;
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -119,4 +118,13 @@ img {
 .tile_image_container {
   max-width: 20%;
 }
-
+.tag {
+  width: auto;
+  height: auto;
+  background-color: grey;
+  border: 1px solid black;
+  margin: 2px;
+}
+.details_holder {
+  display: flex;
+}
