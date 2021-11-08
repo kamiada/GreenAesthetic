@@ -4,6 +4,10 @@ import { NHM } from "../../images";
 import "./projects.scss";
 import projects from "./projects.json";
 
+const displayDetails = () => {
+  console.log('works');
+};
+
 const Projects = () => {
   return (
     <Layout>
@@ -15,6 +19,7 @@ const Projects = () => {
           <Panel
             image={NHM}
             alt="Redesign for the website of Natural History Museum"
+            onClick={() => displayDetails}
             projectTitle={projects.projectsDescriptions[0].title}
             tags={projects.projectsDescriptions[0].tags}
           />

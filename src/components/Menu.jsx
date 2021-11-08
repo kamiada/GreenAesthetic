@@ -6,7 +6,7 @@ class Menu extends Component {
   render() {
     return (
       <div className="menu-container">
-        <nav class="navbar">
+        <nav className="navbar">
           <ul>
             <li>
               <Link activeClass="active" to="home" spy={true} smooth={true}>

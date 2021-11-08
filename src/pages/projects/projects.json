@@ -27,19 +27,16 @@
             "title": "Live!",
             "tags": [
                 "React.Js",
-                "Fullstack",
                 "Python",
                 "Flask",
-                "AWS",
-                "Postman",
-                "API"
+                "AWS"
             ],
             "post": "The theme of BBC Platform Hackathon 2020 was connection - between people inside our organisation, especially in 2020, during the global pandemy and lockdown in United Kingdom. Therefore me and my team decided to create web application which could be repository for zoom calls across the BBC. The zoom calls would be both social calls, demonstrations of the product, meet ups, tech chats and other possibile forms of conversations about different topic. This could help people to connect, easy up knowledge sharing, socialise in safe way and learn new things. The web application would hold zoom link, the theme of the call and the amount of people currently in it - this could be helpful for people who are deeply introverted or shy. More than that, the web app would have tags based filters, generated depending to tags added to the call. Below the zoom calls we would have timeline with upcoming events and option to click on them and download outlook date-time reminder for calendars. During the Hackathon, me and my team managed to build both frontend and backend of the app. Due to the fact that I was the only person with front end knowledge, I dealt with design and build of this part of the application. Thanks to that, me and two other engineers managed to build the frontend and even add some simple CSS animation. The backend was Python+Flask API and instead of a database we used JSON file in order to build the app on time. We managed to win second place in the Hackathon and present our work during the BBC Platform Conference 2020",
             "github": "https://github.com/bbc/hackathon2020/tree/8-hacking-circus/8-hacking-circus/frontend/live"
         },
         {
             "_id": 3,
-            "title": "The prototype of a mobile application for customised tourism in Edinburgh",
+            "title": "Mobile app for customised tourism",
             "tags": [
                 "Android",
                 "Java",
@@ -57,8 +54,7 @@
                 "Data gathering",
                 "JavaScript",
                 "Data Visualisation",
-                "SQL",
-                "Google Charts"
+                "SQL"
             ],
             "post": "Tracker (or more accuretly: trackers) are my internship project which I have done for Computer Application Services in Edinburgh, during summer 2019. CAS has it's software WorkPro focused on integrating with web forms, social media and company systems, allowing HR and other this type of departments better workflow - both for them and their users. But in order to improve WorkPro and understand how users are using it - what features are the most popular, what features are rarely used or even should be removed, we needed a data about users behaviour. Therefore, my project was focused on gathering this data, by creating trackers on each page, which user enters. When users move to another page - tracker dies and sends info to our database, with user's randomly generated id. Then on next page on which user is, new tracker is following user, till again, user moves to another page and so on. The data then is used to generate Sankey diagram with use of Google Charts (JS library for generating graphs and diagrams). This project taught me a lot about data analytics, data gathering and working on large, old codebases like the one for WorkPro. Most of the programming was done with use of C#.Net and in some parts - JavaScript. The most challanging part of the project was flattening data - Google Charts requires for Sankey flat data with no repeating 'locations'. I am proud to say, that by the September the project was working and performing and in 2020, was officially added to WorkPro as one of the admin features to collect users behaviour for better performance of the software"
         },
