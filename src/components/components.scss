@@ -59,12 +59,13 @@ img {
   justify-content: center;
   align-items: center;
   cursor:pointer;
+  position: relative;
 }
 .parent_square:hover .overlay{
   height: 100%;
 }
 .sliding_text {
-  color: white;
+  color:red;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -73,6 +74,7 @@ img {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  opacity: 1;
 }
 .overlay {
   position: absolute;

@@ -6,7 +6,15 @@ class Panel extends Component {
     return (
       <button className="parent_square" onClick={this.props.onClick}>
         <img className="square" src={this.props.image} alt={this.props.alt} />
-        <div className="overlay"><div class="sliding_text">Hello World</div></div>
+        <div className="overlay">
+          <div class="sliding_text">
+            <div>{this.props.projectTitle}</div>
+            {this.props.tags &&
+              this.props.tags.map((tag) => {
+                return <div>{tag}</div>;
+              })}
+          </div>
+        </div>
       </button>
     );
   }
