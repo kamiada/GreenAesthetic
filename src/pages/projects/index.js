@@ -21,12 +21,14 @@ const Projects = () => {
             alt="Redesign for the website of Natural History Museum"
             onClick={() => displayDetails}
             projectTitle={projects.projectsDescriptions[0].title}
+            link={projects.projectsDescriptions[0].github}
             tags={projects.projectsDescriptions[0].tags}
           />
           <Panel
             image={NHM}
             alt="Redesign for the website of Natural History Museum"
             projectTitle={projects.projectsDescriptions[1].title}
+            link={projects.projectsDescriptions[1].github}
             tags={projects.projectsDescriptions[1].tags}
 
           />
@@ -34,6 +36,7 @@ const Projects = () => {
             image={NHM}
             alt="Redesign for the website of Natural History Museum"
             projectTitle={projects.projectsDescriptions[2].title}
+            link={projects.projectsDescriptions[2].github}
             tags={projects.projectsDescriptions[2].tags}
 
           />
@@ -41,6 +44,7 @@ const Projects = () => {
             image={NHM}
             alt="Redesign for the website of Natural History Museum"
             projectTitle={projects.projectsDescriptions[3].title}
+            link={projects.projectsDescriptions[3].outsideLinks}
             tags={projects.projectsDescriptions[3].tags}
 
           />
@@ -55,6 +59,7 @@ const Projects = () => {
             image={NHM}
             alt="Redesign for the website of Natural History Museum"
             projectTitle={projects.projectsDescriptions[5].title}
+            link={projects.projectsDescriptions[5].github}
             tags={projects.projectsDescriptions[5].tags}
 
           />
@@ -62,7 +67,16 @@ const Projects = () => {
             image={NHM}
             alt="Redesign for the website of Natural History Museum"
             projectTitle={projects.projectsDescriptions[6].title}
+            link={projects.projectsDescriptions[6].links}
             tags={projects.projectsDescriptions[6].tags}
+
+          />
+                    <Panel
+            image={NHM}
+            alt="Redesign for the website of Natural History Museum"
+            projectTitle={projects.projectsDescriptions[7].title}
+            link={projects.projectsDescriptions[7].github}
+            tags={projects.projectsDescriptions[7].tags}
 
           />
         </div>
