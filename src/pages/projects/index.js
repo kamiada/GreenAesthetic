@@ -1,6 +1,6 @@
 import React from "react";
 import { Panel, Layout } from "../../components";
-import { NHM } from "../../images";
+import { NHM, MobileApp } from "../../images";
 import "./projects.scss";
 import projects from "./projects.json";
 
@@ -41,8 +41,8 @@ const Projects = () => {
 
           />
           <Panel
-            image={NHM}
-            alt="Redesign for the website of Natural History Museum"
+            image={MobileApp}
+            alt="Poster of project for the dissertation"
             projectTitle={projects.projectsDescriptions[3].title}
             link={projects.projectsDescriptions[3].outsideLinks}
             tags={projects.projectsDescriptions[3].tags}
