@@ -1,6 +1,6 @@
 import React from "react";
 import { Panel, Layout } from "../../components";
-import { NHM, MobileApp } from "../../images";
+import { NHM, MobileApp, Arctica } from "../../images";
 import "./projects.scss";
 import projects from "./projects.json";
 
@@ -64,8 +64,8 @@ const Projects = () => {
 
           />
           <Panel
-            image={NHM}
-            alt="Redesign for the website of Natural History Museum"
+            image={Arctica}
+            alt="Screenshot of web browser game Arctica with polar bear on it"
             projectTitle={projects.projectsDescriptions[6].title}
             link={projects.projectsDescriptions[6].links}
             tags={projects.projectsDescriptions[6].tags}

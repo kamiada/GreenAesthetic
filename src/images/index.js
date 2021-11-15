@@ -10,4 +10,5 @@ import CAS from './CAS.png';
 import WCS from './WestCollegeScotland.png';
 import UoE from './UniversityEdinburgh.png'
 import MobileApp from './AdriannaKaminkaPosterFinal.png';
-export { MobileApp, NHM, profilePic, photo, Github, Linkedin, BBCNews, BBC, Napier, CAS, WCS, UoE };
+import Arctica from './Arctica.png';
+export { Arctica, MobileApp, NHM, profilePic, photo, Github, Linkedin, BBCNews, BBC, Napier, CAS, WCS, UoE };
