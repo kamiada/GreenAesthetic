@@ -1,6 +1,6 @@
 import React from "react";
 import { Panel, Layout } from "../../components";
-import { NHM, MobileApp, Arctica } from "../../images";
+import { NHM, MobileApp, Arctica, Live } from "../../images";
 import "./projects.scss";
 import projects from "./projects.json";
 
@@ -33,8 +33,8 @@ const Projects = () => {
 
           />
           <Panel
-            image={NHM}
-            alt="Redesign for the website of Natural History Museum"
+            image={Live}
+            alt="Screenshot of the web app from BBC hackathon"
             projectTitle={projects.projectsDescriptions[2].title}
             link={projects.projectsDescriptions[2].github}
             tags={projects.projectsDescriptions[2].tags}

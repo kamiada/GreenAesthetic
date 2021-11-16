@@ -11,4 +11,5 @@ import WCS from './WestCollegeScotland.png';
 import UoE from './UniversityEdinburgh.png'
 import MobileApp from './AdriannaKaminkaPosterFinal.png';
 import Arctica from './Arctica.png';
-export { Arctica, MobileApp, NHM, profilePic, photo, Github, Linkedin, BBCNews, BBC, Napier, CAS, WCS, UoE };
+import Live from './React App.png';
+export { Live, Arctica, MobileApp, NHM, profilePic, photo, Github, Linkedin, BBCNews, BBC, Napier, CAS, WCS, UoE };
