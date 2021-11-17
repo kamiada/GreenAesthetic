@@ -10,6 +10,11 @@ button {
   background-color: $limegreen;
 }
 
+a {
+  color: black;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
 
 .button-component {
   button {
@@ -120,6 +125,7 @@ img {
 }
 .tag_container {
   display: flex;
+  justify-content: center;
 }
 .tag {
   max-width: 100px;
