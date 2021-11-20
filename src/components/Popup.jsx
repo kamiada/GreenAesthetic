@@ -30,7 +30,7 @@ class Popup extends Component {
         <div className={this.state.itsActive ? 'miniPage--active': 'miniPage'} >
             <p>The purpose of this page is to present in graph data regarding COVID-19 in U.K, specifically Scotland</p>
             <button onClick={this.closeSubpage} className="btnClose">
-            <img className="image" src={Cross} alt="Cross by Aybige from the Noun Project" />
+            <img className="image"  alt="Cross by Aybige from the Noun Project" />
             </button>
         </div>
       </Fragment>
