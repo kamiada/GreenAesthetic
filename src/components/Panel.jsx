@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./components.scss";
+import { Popup } from ".";
 
 class Panel extends Component {
   render() {

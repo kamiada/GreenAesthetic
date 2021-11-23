@@ -30,7 +30,7 @@ class Popup extends Component {
         <div className={this.state.itsActive ? 'miniPage--active': 'miniPage'} >
             <p>{this.props.description}</p>
             <button onClick={this.closeSubpage} className="btnClose">
-            <img className="image"  alt="" />
+            Close
             </button>
         </div>
       </Fragment>
