@@ -3,9 +3,12 @@ import "./components.scss";
 import { Popup } from ".";
 
 class Panel extends Component {
+
   openPopup = (desc) => {
+    console.log('here');
+    console.log(desc);
     if(desc) {
-      
+      <Popup description={desc}/>
     }
   }
   render() {
