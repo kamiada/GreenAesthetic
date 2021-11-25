@@ -23,7 +23,7 @@ class Panel extends Component {
               {this.props.projectTitle}
             </a>
             :
-            <button onClick={()=>this.openPopup(this.props.description)}>{this.props.projectTitle}</button>
+            <Popup title={this.props.projectTitle} description={this.props.description}/>
           }
            
             {this.props.tags &&

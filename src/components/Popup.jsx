@@ -24,7 +24,7 @@ class Popup extends Component {
     return (
       <div>
         <button onClick={this.renderSubpage} className="smallTitle">
-          <h2>about.</h2>
+          <h2>{this.props.title}</h2>
         </button>
         <Fragment>
         <div className={this.state.itsActive ? 'miniPage--active': 'miniPage'} >
