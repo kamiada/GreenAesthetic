@@ -102,6 +102,16 @@
                 "https://kamiada.itch.io/feel-my-feels"
             ],
             "github": "https://github.com/marcomoroni/ggj-2018"
+        },
+        {
+            "_id": 8,
+            "title":"Redesign of Natural History Museum webpage",
+            "tags": [
+                "React.JS",
+                "UX/UI",
+                "Node.JS"
+            ],
+            "github":"https://github.com/kamiada/Natural-History-Museum-in-React"
         }
     ]
 }

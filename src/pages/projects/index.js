@@ -1,6 +1,6 @@
 import React from "react";
 import { Panel, Layout } from "../../components";
-import { NHM, MobileApp, Arctica, Live, FeelMyFeels, PandaMediator, Dashboards } from "../../images";
+import { NHM, CAS, MobileApp, Arctica, Live, FeelMyFeels, PandaMediator, Dashboards } from "../../images";
 import "./projects.scss";
 import projects from "./projects.json";
 
@@ -44,8 +44,8 @@ const Projects = () => {
             tags={projects.projectsDescriptions[3].tags}
           />
           <Panel
-            image={NHM}
-            alt="Redesign for the website of Natural History Museum"
+            image={CAS}
+            alt="No image, just logo of the company for which I have done this project"
             projectTitle={projects.projectsDescriptions[4].title}
             tags={projects.projectsDescriptions[4].tags}
           />
@@ -69,6 +69,13 @@ const Projects = () => {
             projectTitle={projects.projectsDescriptions[7].title}
             link={projects.projectsDescriptions[7].links}
             tags={projects.projectsDescriptions[7].tags}
+          />
+          <Panel 
+            image={NHM}
+            alt="Redesign for the website of Natural History Museum"
+            projectTitle={projects.projectsDescriptions[8].title}
+            link={projects.projectsDescriptions[8].github}
+            tags={projects.projectsDescriptions[8].tags}
           />
         </div>
       </div>
