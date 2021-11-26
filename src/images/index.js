@@ -12,4 +12,7 @@ import UoE from './UniversityEdinburgh.png'
 import MobileApp from './AdriannaKaminkaPosterFinal.png';
 import Arctica from './Arctica.png';
 import Live from './React App.png';
-export { Live, Arctica, MobileApp, NHM, profilePic, photo, Github, Linkedin, BBCNews, BBC, Napier, CAS, WCS, UoE };
+import FeelMyFeels from './FeelMyFeels.png';
+import PandaMediator from './pandaMediator.png';
+import Dashboards from './dashboards.png';
+export { Dashboards, PandaMediator, FeelMyFeels, Live, Arctica, MobileApp, NHM, profilePic, photo, Github, Linkedin, BBCNews, BBC, Napier, CAS, WCS, UoE };

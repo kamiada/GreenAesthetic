@@ -1,6 +1,6 @@
 import React from "react";
 import { Panel, Layout } from "../../components";
-import { NHM, MobileApp, Arctica, Live } from "../../images";
+import { NHM, MobileApp, Arctica, Live, FeelMyFeels, PandaMediator, Dashboards } from "../../images";
 import "./projects.scss";
 import projects from "./projects.json";
 
@@ -23,8 +23,8 @@ const Projects = () => {
             tags={projects.projectsDescriptions[0].tags}
           />
           <Panel
-            image={NHM}
-            alt="Redesign for the website of Natural History Museum"
+            image={Dashboards}
+            alt="Screenshot of mini-project about dashboard for covid19 data"
             projectTitle={projects.projectsDescriptions[1].title}
             link={projects.projectsDescriptions[1].github}
             tags={projects.projectsDescriptions[1].tags}
@@ -40,8 +40,7 @@ const Projects = () => {
             image={MobileApp}
             alt="Poster of project for the dissertation"
             projectTitle={projects.projectsDescriptions[3].title}
-            // link={projects.projectsDescriptions[3].outsideLinks}
-            description={projects.projectsDescriptions[3].post}
+            link={projects.projectsDescriptions[3].outsideLinks}
             tags={projects.projectsDescriptions[3].tags}
           />
           <Panel
@@ -51,8 +50,8 @@ const Projects = () => {
             tags={projects.projectsDescriptions[4].tags}
           />
           <Panel
-            image={NHM}
-            alt="Redesign for the website of Natural History Museum"
+            image={PandaMediator}
+            alt="Art from my game for Global Game Jam 2020 - Panda Mediator"
             projectTitle={projects.projectsDescriptions[5].title}
             link={projects.projectsDescriptions[5].github}
             tags={projects.projectsDescriptions[5].tags}
@@ -65,10 +64,10 @@ const Projects = () => {
             tags={projects.projectsDescriptions[6].tags}
           />
           <Panel
-            image={NHM}
-            alt="Redesign for the website of Natural History Museum"
+            image={FeelMyFeels}
+            alt="Screenshot from game done for the Global GameJam 2018"
             projectTitle={projects.projectsDescriptions[7].title}
-            link={projects.projectsDescriptions[7].github}
+            link={projects.projectsDescriptions[7].links}
             tags={projects.projectsDescriptions[7].tags}
           />
         </div>
