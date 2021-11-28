@@ -8,7 +8,7 @@ class Panel extends Component {
         <img className="square" src={this.props.image} alt={this.props.alt} />
         <div className="overlay">
           <div class="sliding_text"> 
-            <a className="details_holder" href={this.props.link}>
+            <a className="details_holder" target="_blank" href={this.props.link} rel="noreferrer">
               {this.props.projectTitle}
             </a>
             {this.props.tags &&
