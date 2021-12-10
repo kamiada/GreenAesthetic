@@ -7,6 +7,7 @@
                 "React.Js",
                 "Frontend"
             ],
+            "alt":"Screenshot of Mendleeve Table",
             "post": "The purpose of this project was to learn more about CSS properties and React. I wanted to build something which could be used for free by students who want to learn about Periodic Table, and have this information easy to access and in visually pleasant form.\n During building the Table I found ways of how to do it, but sadly I settled with manual adding elements due to interactivity. In order to place elements in correct way, I decided to use grid in CSS : it was easier for visualisation and placement of non empty cells into the table. ",
             "github": "https://github.com/kamiada/Mendeleev-Table"
         },
@@ -19,6 +20,7 @@
                 "Node.JS",
                 "JavaScript"
             ],
+            "alt":"Screenshot of mini-project about dashboard for covid19 data",
             "post": "I started this side project in January 2021, after a year of lockdowns in UK, in order to have visual way to compare the statistics and to learn about Chart.JS library for JavaScript. There are other programming libraries which are using even better looking charts, but I liked the simplicity of that one. The data for this project was taken from  European Centre for Disease Prevention and Control. The main challange in this project was to create filters, which would allow user to filter per interesting for them countries, months and parameters; and manipulating data so it could fit different charts.",
             "github": "https://github.com/kamiada/chart_dashboard"
         },
@@ -31,6 +33,7 @@
                 "Flask",
                 "AWS"
             ],
+            "alt":"Screenshot of the web app from BBC hackathon",
             "post": "The theme of BBC Platform Hackathon 2020 was connection - between people inside our organisation, especially in 2020, during the global pandemy and lockdown in United Kingdom. Therefore me and my team decided to create web application which could be repository for zoom calls across the BBC. The zoom calls would be both social calls, demonstrations of the product, meet ups, tech chats and other possibile forms of conversations about different topic. This could help people to connect, easy up knowledge sharing, socialise in safe way and learn new things. The web application would hold zoom link, the theme of the call and the amount of people currently in it - this could be helpful for people who are deeply introverted or shy. More than that, the web app would have tags based filters, generated depending to tags added to the call. Below the zoom calls we would have timeline with upcoming events and option to click on them and download outlook date-time reminder for calendars. During the Hackathon, me and my team managed to build both frontend and backend of the app. Due to the fact that I was the only person with front end knowledge, I dealt with design and build of this part of the application. Thanks to that, me and two other engineers managed to build the frontend and even add some simple CSS animation. The backend was Python+Flask API and instead of a database we used JSON file in order to build the app on time. We managed to win second place in the Hackathon and present our work during the BBC Platform Conference 2020",
             "github": "https://github.com/bbc/hackathon2020/tree/8-hacking-circus/8-hacking-circus/frontend/live"
         },

@@ -1,9 +1,34 @@
 import React from "react";
 import { Panel, Layout } from "../../components";
-import { NHM, MendleevTable, CAS, MobileApp, Arctica, Live, FeelMyFeels, PandaMediator, Dashboards } from "../../images";
+import {
+  NHM,
+  MendleevTable,
+  CAS,
+  MobileApp,
+  Arctica,
+  Live,
+  FeelMyFeels,
+  PandaMediator,
+  Dashboards,
+} from "../../images";
 import "./projects.scss";
 import projects from "./projects.json";
 
+const data = projects.projectsDescriptions.map(element => 
+  element.github ? (
+    <Panel
+      projectTitle={element.title}
+      link={element.github}
+      tags={element.tags}
+    />
+  ) : (
+    <Panel
+      projectTitle={element.title}
+      link={element.links}
+      tags={element.tags}
+    />
+  )
+  );
 
 const Projects = () => {
   return (
@@ -11,7 +36,8 @@ const Projects = () => {
       <div className="section_title_projects">My Projects</div>
       <div className="projects-container" id="projects">
         <div className="table">
-          <Panel
+          {data}
+          {/* <Panel
             image={MendleevTable}
             alt="Screenshot of Mendleeve Table"
             projectTitle={projects.projectsDescriptions[0].title}
@@ -66,13 +92,13 @@ const Projects = () => {
             link={projects.projectsDescriptions[7].links}
             tags={projects.projectsDescriptions[7].tags}
           />
-          <Panel 
+          <Panel
             image={NHM}
             alt="Redesign for the website of Natural History Museum"
             projectTitle={projects.projectsDescriptions[8].title}
             link={projects.projectsDescriptions[8].github}
             tags={projects.projectsDescriptions[8].tags}
-          />
+          /> */}
         </div>
       </div>
     </Layout>
