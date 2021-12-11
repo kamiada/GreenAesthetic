@@ -14,21 +14,6 @@ import {
 import "./projects.scss";
 import projects from "./projects.json";
 
-const data = projects.projectsDescriptions.map(element => 
-  element.github ? (
-    <Panel
-      projectTitle={element.title}
-      link={element.github}
-      tags={element.tags}
-    />
-  ) : (
-    <Panel
-      projectTitle={element.title}
-      link={element.links}
-      tags={element.tags}
-    />
-  )
-  );
 
 const Projects = () => {
   return (
@@ -36,8 +21,7 @@ const Projects = () => {
       <div className="section_title_projects">My Projects</div>
       <div className="projects-container" id="projects">
         <div className="table">
-          {data}
-          {/* <Panel
+          <Panel
             image={MendleevTable}
             alt="Screenshot of Mendleeve Table"
             projectTitle={projects.projectsDescriptions[0].title}
@@ -98,7 +82,7 @@ const Projects = () => {
             projectTitle={projects.projectsDescriptions[8].title}
             link={projects.projectsDescriptions[8].github}
             tags={projects.projectsDescriptions[8].tags}
-          /> */}
+          />
         </div>
       </div>
     </Layout>
