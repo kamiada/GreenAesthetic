@@ -16,20 +16,12 @@ const aboutMe = () => {
           <div className="text_container">
             <p>
               I work as a full-stack software engineer for BBC News, in Elections Team.
-              I am both interested in frontend and backend technologies. I
-              really like building web-apps with React, games in Unity Engine
-              and learning new programming languages and concepts. I am a bit of
-              a data geek and I like reading about AI and Data Science.
+              In my free time, I like to program in Unity, React and Python for fun, 
+              read books and learn about history.
               <br />
               <br />
-              My interests are focused on impact of technology on people's
+              My interests are focused on the impact of technology on people's
               everyday life and how technology can improve things.
-              <br />
-              <br />
-              Outside that, I like learning about history of the world, write
-              and read books, doing yoga (when I don't feel lazy), travelling and
-              cooking. During lockdown I started an online book club in Edinburgh,
-              and I joined few other book clubs as well.
               <br />
               <br />
               To find out more about me scroll down 😊
